@@ -6,58 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="personal.css"/>
+
 </head>
 
-<body style="background-color:aliceblue">
-    <h1 style="color: aqua; text-decoration-line: underline;">
+<body>
+    <div style="color: aqua; text-decoration-line: underline;font-size: 50px; border: 2px solid black;">
         My future personal website!
-    </h1>
-    <h1 style="color:gray;"> Hi!</h1>
-    <h1 style="color:gray;"> I'm <span style="color:black;">Jonathan</span> Chen</h1>
+    </div>
+    <div class="intro">
+        Hi!
+        <div>I'm <span class="intro-span"> Jonathan </span> Chen</div>
+    </div>
 
-    <table border="1" width="300" cellpadding="10">
+
+    <table class="menu" border="1" width="300" cellpadding="10">
         <!-- tr for table row-->
         <tr>
             <td>About</td>
-            <td>Experience</td>
+            <td>Experiences</td>
             <td>Projects</td>
+            <td>Resume</td>
             <td>Contact</td>
         </tr>
     </table>
     <hr>
     <!-- href for the link-->
-    <a href="https://github.com/pingyujc"> My Github</a>
-    <div> This will change line<div>
-    <span> Span should stay on the same line</span>
-    <!-- using image-->
-    <!-- we can either just paste the public address-->
-    <img src="https://yt3.ggpht.com/yti/AHXOFjUZXk8pV3yHUm6B4xXBMLThsXKoUMnM9mwgWQ=s88-c-k-c0x00ffffff-no-rj-mo" />
-    <!-- or we can download the image and put into the wd, call it by file name-->
-    <h2>
+    <div id="me" class="section"> About Me</div>
+    <hr>
+    <div class="section"> My Experiences</div>
+    <hr>
+    <div class="experience">
         Education
         <ul>
-            <li> 
+            <li>
                 <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>
             </li>
             <li>University of California, Santa Barbara</li>
         </ul>
-    </h2>
+    </div>
     <hr>
-    <h2>
-        Experience
-        <ul>
-            <li>XY finance</li>
-            <li>Lootex</li>
 
-        </ul>
-    </h2>
+    <div class="experience"> XY Finance</div>
+    <div class="experience"> Lootex</div>
+    <div class="experience"> Blockchain Club at UCSB</div>
+    <div class="experience"> JOGI Web3</div>
 
-    <h2 style="color:purple"> Some links</h2>
     <hr>
-    <a href="https://twitter.com/pingyujc"><img style="width: 150px;" src="twitter.webp"></a>
-    <a href="https://github.com/pingyujc"><img style="width: 150px;" src="github.webp"></a>
-    <a href="https://www.linkedin.com/in/jonathan-chen-21399820a/"><img style="width: 150px;" src="linkedin.webp"></a> 
-    <a href="https://etherscan.io/address/0x26fe97917f8d79e368d78455fec7855a55d09086"><img style="width: 150px;" src="etherscan.svg"></a>
+    <div class="section"> Past Projects</div>
+    <hr>
+
+    <!-- using image-->
+    <!-- we can either just paste the public address-->
+    <!-- or we can download the image and put into the wd, call it by file name-->
+    <hr>
+
+
+    <div class="section"> Contacts</div>
+    <hr>
+    <a href="https://twitter.com/pingyujc"><img class="icon" src="twitter.webp"></a>
+    <a href="https://github.com/pingyujc"><img class="icon" src="github.webp"></a>
+    <a href="https://www.linkedin.com/in/jonathan-chen-21399820a/"><img class="icon" src="linkedin.webp"></a>
+    <a href="https://etherscan.io/address/0x26fe97917f8d79e368d78455fec7855a55d09086"><img class="icon"
+            src="etherscan.svg"></a>
 
 
 
