@@ -5,6 +5,22 @@ body {
     background-color: aliceblue;
 }
 
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
 /* id selector, start with # */
 #me{font-weight: bolder;}
 
@@ -19,7 +35,7 @@ body {
 }
 
 .section {
-    background-color: yellow;
+    background-color: rgb(171, 168, 168);
     font-size: 25px;
 }
 
@@ -33,3 +49,9 @@ body {
     width: 150px;
     margin-right: 10px;
 }
+.menu{
+    border: 1px dashed white;
+    background-color: aliceblue;
+    color: white;
+}
+
