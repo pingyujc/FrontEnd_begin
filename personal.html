@@ -11,52 +11,69 @@
 </head>
 
 <body>
-    <header>
-		<h1>My Personal Website</h1>
-        <table class="menu" border="1" width="300" cellpadding="10">
-            <!-- tr for table row-->
-            <tr>
-                <td><a href="">About</a></td>
-                <td><a href="">Experiences</a></td>
-                <td><a href="">Projects</a></td>
-                <td><a href="">Resume</a></td>
-                <td><a href="">Contact</a></td>
 
-            </tr>
-        </table>
-	</header>
+    <div class="mainhead">
+        <div class="info">
+            <div>Jonathan Chen</div>
+            <div>Computer Science | Blockchain | NFT</div>
+        </div>
+
+        <div class="menu">
+            <a href="">Experiences</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+            <button> Resume/CV</button>
+        </div>  
+    </div>
 
     <div class="intro">
         Hi!
         <div>I'm <span class="intro-span"> Jonathan </span> Chen</div>
     </div>
-
-
-
     <hr>
-    <!-- href for the link-->
+
+    <!-- ABOUT ME-->
     <div id="me" class="section"> About Me</div>
     <hr>
-    <div class="section"> My Experiences</div>
+
+
+
+    <!-- JOURNEY -->
+    <div class="section"> My Journey</div>
     <hr>
-    <div class="experience">
+
+
+
+    
+    <div class="experience"> 
+        XY Finance
+        <img src="XY.svg">
+    
+    </div>
+    <div class="experience"> 
+        Lootex
+        <img style= "width: 60px;"src="Lootex.webp">
+
+    </div>
+    <div class="experience"> JOGI Web3</div>
+
+    <hr>    
+    <div id="education" class="experience">
         Education
-        <ul>
-            <li>
-                <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>
-            </li>
-            <li>University of California, Santa Barbara</li>
-        </ul>
+        <div class="school">NTU, National Taiwan University</div>
+        <div class="school">UCSB, University of California, Santa Barbara</div>
+
     </div>
     <hr>
 
-    <div class="experience"> XY Finance</div>
-    <div class="experience"> Lootex</div>
-    <div class="experience"> Blockchain Club at UCSB</div>
-    <div class="experience"> JOGI Web3</div>
+    <!-- PROJECTS -->
+    <div class="section"> Projects </div>
 
-    <hr>
-    <div class="section"> Past Projects</div>
+    <div class="project"></div>
+    <div class="project"></div>
+    <div class="project"></div>
+    <div class="project"></div>
+
     <hr>
 
     <!-- using image-->
@@ -67,11 +84,16 @@
 
     <div class="section"> Contacts</div>
     <hr>
-    <a href="https://twitter.com/pingyujc"><img class="icon" src="twitter.webp"></a>
-    <a href="https://github.com/pingyujc"><img class="icon" src="github.webp"></a>
-    <a href="https://www.linkedin.com/in/jonathan-chen-21399820a/"><img class="icon" src="linkedin.webp"></a>
-    <a href="https://etherscan.io/address/0x26fe97917f8d79e368d78455fec7855a55d09086"><img class="icon"
-            src="etherscan.svg"></a>
+    <!-- The icons, including twitter, github ...etc -->
+    <div class="icons">
+        <a href="https://twitter.com/pingyujc"><img src="twitter.webp"></a>
+        <a href="https://github.com/pingyujc"><img src="github.webp"></a>
+        <a href="https://www.linkedin.com/in/jonathan-chen-21399820a/"><img src="linkedin.webp"></a>
+        <a href="https://etherscan.io/address/0x26fe97917f8d79e368d78455fec7855a55d09086"><img src="etherscan.svg"></a>
+
+
+    </div>
+
 
     <footer>
         <p>&copy; 2023 My Personal Website</p>

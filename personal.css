@@ -5,14 +5,6 @@ body {
     background-color: aliceblue;
 }
 
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 1rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
 footer {
 	background-color: #333;
@@ -23,11 +15,50 @@ footer {
 
 /* id selector, start with # */
 #me{font-weight: bolder;}
+#education{
+    font-size: large;
+    font-weight: bolder;
+}
 
 /* class selector, start with . */
+
+/*the main header in the home page*/ 
+.mainhead{
+    background-color: #c8e9f3;
+    display: flex;
+}
+/* Name, info*/
+.info {
+    flex: auto;
+    width: 50%;
+}
+.info div{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.menu{
+    flex: none;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    flex: none;
+    margin-right: 15px;
+}
+
+
+/* .menu{
+    border: 1px dashed white;
+    background-color: aliceblue;
+    color: white;
+} */
+
 .intro {
     color: gray;
     font-size: 45px;
+    /* display: flex; */
+    text-align: center;
 }
 
 .intro-span {
@@ -37,6 +68,7 @@ footer {
 .section {
     background-color: rgb(171, 168, 168);
     font-size: 25px;
+    text-align: center;
 }
 
 .experience {
@@ -45,13 +77,28 @@ footer {
     margin: 10px;
 }
 
+.school{
+    border: 1px dashed rgb(230, 178, 46);
+}
+
+.project {
+    border: 1px dashed blue;
+    margin: 10px;
+}
+
 .icon {
-    width: 150px;
+    flex: none;
+    width: 20%;
     margin-right: 10px;
 }
-.menu{
-    border: 1px dashed white;
-    background-color: aliceblue;
-    color: white;
+
+
+.icons{
+    background-color: grey;
+}
+.icons img{
+    flex: none;
+    height: auto;
+    width: 20%;
 }
 
