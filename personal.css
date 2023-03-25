@@ -55,12 +55,29 @@ footer {
 } */
 
 .intro {
+    background-color: beige;
+    display: flex;
     color: gray;
     font-size: 45px;
     /* display: flex; */
     text-align: center;
 }
-
+.intro-pic{
+    background-color: white;
+    margin: 20px;
+    flex: none;
+    width: 30%;
+}
+.intro-words{
+    /* background-color: white; */
+    flex: none;
+    width: 60%;
+    text-align: left;
+}
+.intro-words div{
+    color: rgb(79, 77, 77);
+    font-size: 25px;
+}
 .intro-span {
     color: black;
 }
