@@ -2,6 +2,7 @@
 
 /* title selecter, body, div...etc*/
 body {
+
     background-color: aliceblue;
 }
 
@@ -14,13 +15,21 @@ footer {
 }
 
 /* id selector, start with # */
-#me{font-weight: bolder;}
+#me{
+    font-weight: bolder;
+}
 #education{
     font-size: large;
     font-weight: bolder;
 }
 
 /* class selector, start with . */
+
+/* main contents in the page*/
+.content{
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
 /*the main header in the home page*/ 
 .mainhead{
@@ -89,6 +98,10 @@ footer {
     text-align: center;
 }
 
+.about_me{
+
+}
+
 .experience {
     display: flex;
     font-size: 20px;
@@ -113,10 +126,15 @@ footer {
 }
 
 .school{
+    padding-left: 15%;
+    padding-right: 15%;
     border: 1px dashed rgb(230, 178, 46);
 }
 
 .project {
+    background-color: aqua;
+    padding-left: 15%;
+    padding-right: 15%;
     border: 1px dashed blue;
     margin: 10px;
 }
