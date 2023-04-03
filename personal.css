@@ -2,7 +2,7 @@
 
 /* title selecter, body, div...etc*/
 body {
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: aliceblue;
 }
 
@@ -18,17 +18,15 @@ footer {
 #me{
     font-weight: bolder;
 }
-#education{
-    font-size: large;
-    font-weight: bolder;
-}
+
 
 /* class selector, start with . */
 
 /* main contents in the page*/
+/*  these will stay in the middle of the webpage*/
 .content{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 /*the main header in the home page*/ 
@@ -45,6 +43,8 @@ footer {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+/* the options on top right of the webpage*/ 
 .menu{
     flex: none;
     width: auto;
@@ -57,26 +57,33 @@ footer {
     margin-right: 15px;
 }
 
+.menu button {
+    display: inline-block;
+    /* background-color: #4CAF50; */
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-/* .menu{
-    border: 1px dashed white;
-    background-color: aliceblue;
-    color: white;
-} */
+
 
 .intro {
     background-color: beige;
     display: flex;
     color: gray;
-    font-size: 45px;
+    font-size: 25px;
     /* display: flex; */
     text-align: center;
+    align-items: center;
 }
 .intro-pic{
     background-color: white;
-    margin: 20px;
+    /* margin: 20px; */
     flex: none;
-    width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
 }
 .intro-words{
     /* background-color: white; */
@@ -86,7 +93,7 @@ footer {
 }
 .intro-words div{
     color: rgb(79, 77, 77);
-    font-size: 25px;
+    font-size: 15px;
 }
 .intro-span {
     color: black;
@@ -94,7 +101,7 @@ footer {
 
 .section {
     background-color: rgb(171, 168, 168);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -104,8 +111,7 @@ footer {
 
 .experience {
     display: flex;
-    font-size: 20px;
-    border: 1px dashed blue;
+    font-size: 15px;
     margin-top: 10px;
 }
 .experience div{
@@ -128,14 +134,12 @@ footer {
 .school{
     padding-left: 15%;
     padding-right: 15%;
-    border: 1px dashed rgb(230, 178, 46);
 }
 
 .project {
     background-color: aqua;
     padding-left: 15%;
     padding-right: 15%;
-    border: 1px dashed blue;
     margin: 10px;
 }
 
@@ -146,21 +150,17 @@ footer {
 }
 
 
+/* the contacts icons, inlcuding twitter, github... */
 .icons{
-    background-color: grey;
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
 }
 .icons img{
     flex: none;
-    height: auto;
-    width: 20%;
+    width: auto;
+    height: 50px;
+    object-fit:contain;
+    border-radius: 20px; /* round corners*/
 }
 
-.menu button {
-    display: inline-block;
-    /* background-color: #4CAF50; */
-    color: black;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
