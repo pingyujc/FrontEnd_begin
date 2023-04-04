@@ -1,9 +1,17 @@
 /* the CSS style sheet */
+@media (max-width:1250px){
+    /* if the screen width is less than 1250px, use this part*/
+    body {
+        flex-wrap: wrap;
+    }
+}
 
 /* title selecter, body, div...etc*/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aliceblue;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -31,21 +39,27 @@ footer {
 
 /*the main header in the home page*/ 
 .mainhead{
-    background-color: #c8e9f3;
+
+    position: fixed;
+    width: 100%;
+    background-color: white;
     display: flex;
+    align-items: center;
+    height: 50px;
 }
 /* Name, info*/
 .info {
+    margin-left: 20px;
     flex: auto;
     width: 50%;
 }
 .info div{
-    font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
 /* the options on top right of the webpage*/ 
 .menu{
+    margin-right: 20px;
     flex: none;
     width: auto;
     display: flex;
@@ -53,8 +67,13 @@ footer {
     align-items: center;
 }
 .menu a{
+    text-decoration: none;
+    color: #5a5959;
     flex: none;
     margin-right: 15px;
+}
+.menu a:visited{
+    color: ##5a5959;
 }
 
 .menu button {
@@ -70,6 +89,7 @@ footer {
 
 
 .intro {
+    border-top: 65px solid transparent;
     background-color: beige;
     display: flex;
     color: gray;
@@ -80,7 +100,6 @@ footer {
 }
 .intro-pic{
     background-color: white;
-    /* margin: 20px; */
     flex: none;
     max-width: 30%;
     border-radius: 50%;
@@ -105,9 +124,7 @@ footer {
     text-align: center;
 }
 
-.about_me{
 
-}
 
 .experience {
     display: flex;
