@@ -1,9 +1,17 @@
 /* the CSS style sheet */
+
+/* for smaller monitor size, like ipads*/
 @media (max-width:1250px){
     /* if the screen width is less than 1250px, use this part*/
     body {
         flex-wrap: wrap;
     }
+}
+/* for phone size*/
+/* Typically from 360 to 480 px */
+@media (max-width:500px){
+    /* if the screen width is less than 1250px, use this part*/
+
 }
 
 /* title selecter, body, div...etc*/
@@ -73,7 +81,7 @@ footer {
     margin-right: 15px;
 }
 .menu a:visited{
-    color: ##5a5959;
+    color: #5a5959;
 }
 
 .menu button {
